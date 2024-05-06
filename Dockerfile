@@ -1,4 +1,4 @@
-FROM alpine:3.14.2
+FROM alpine:3.19.1
 MAINTAINER Nick Andrew <nick@nick-andrew.net>
 
 RUN apk update
