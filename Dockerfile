@@ -1,5 +1,5 @@
-FROM alpine:3.19.1
-MAINTAINER Nick Andrew <nick@nick-andrew.net>
+FROM alpine:3.20.2
+LABEL org.opencontainers.image.authors="Nick Andrew <nick@nick-andrew.net>"
 
 RUN apk update
 RUN apk add perl make wget
